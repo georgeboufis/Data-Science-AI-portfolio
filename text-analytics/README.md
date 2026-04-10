@@ -1,12 +1,12 @@
 A collection of NLP projects covering the evolution of text classification models, from traditional methods to deep learning and transformers.
 
-N-grams: Bigram & trigram models with smoothing and text generation
+1) N-grams: Bigram & trigram models with smoothing and text generation
 
-MLP: Feedforward neural network for text classification
+2) MLP: Feedforward neural network for text classification
 
-RNN + Attention: BiLSTM/GRU capturing sequential context
+3) RNN + Attention: BiLSTM/GRU capturing sequential context
 
-CNN: n-gram convolutional filters with pooling and residuals
+4) CNN: n-gram convolutional filters with pooling and residuals
 
-BERT: Fine-tuned transformer for sentiment classification
+5) BERT: Fine-tuned transformer for sentiment classification
 
