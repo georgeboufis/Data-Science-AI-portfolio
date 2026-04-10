@@ -1,6 +1,9 @@
 ## Text Analytics Projects
 
+Implemented using PyTorch and modern NLP techniques.
+
 A collection of NLP projects demonstrating the evolution of text classification models, from statistical approaches to deep learning and transformers.
+
 
 ### Projects
 
