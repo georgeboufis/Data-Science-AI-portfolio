@@ -16,3 +16,5 @@ A collection of NLP projects demonstrating the evolution of text classification 
 ### Summary
 
 Progression from **simple statistical models → neural networks → transformers**, highlighting increasing capability to capture context and semantics in text.
+
+
