@@ -1,24 +1,8 @@
-N-gram Language Models (Bigram & Trigram)
+A collection of NLP projects covering the evolution of text classification models, from traditional methods to deep learning and transformers.
 
-This project implements bigram and trigram language models from scratch for text modeling and generation tasks.
+N-grams: Bigram & trigram models with smoothing and text generation
+MLP: Feedforward neural network for text classification
+RNN + Attention: BiLSTM/GRU capturing sequential context
+CNN: n-gram convolutional filters with pooling and residuals
+BERT: Fine-tuned transformer for sentiment classification
 
--) Features
-Implemented bigram and trigram models
-Applied Laplace smoothing for probability estimation
-Used log-probabilities to avoid numerical underflow
-Handled unknown words (UNK) and vocabulary filtering
-Preprocessed text data (tokenization, sentence splitting)
-📊 Evaluation
-
--) The models are evaluated using:
-
-1. Cross-Entropy
-2. Perplexity
-
-Evaluation is performed on a test set treated as a single sequence, including end tokens while excluding start tokens from probability calculations.
-
--)  Text Generation
-
-Implemented sentence autocomplete using:
-
-Greedy decoding (most probable next word)
