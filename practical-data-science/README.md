@@ -1,30 +1,97 @@
-# Practical Data Science
+# Practical Data Science Projects
 
-This course focuses on building end-to-end data science workflows, from data collection to model development.
+This repository contains projects developed as part of the MSc in Data Science & AI (AUEB), focusing on building end-to-end machine learning pipelines on real-world data.
 
-## Projects
-
-### Greek Web Crawler & Financial Text Analysis
-- Developed a web crawler to collect Greek financial news data from multiple sources  
-- Applied text preprocessing and keyword-based analysis for domain-specific patterns  
-
-**Techniques:** web scraping, text preprocessing, keyword analysis  
-**Tools:** Python, Requests, BeautifulSoup, Pandas  
+The work demonstrates a progression from classical machine learning approaches to more advanced hybrid and deep learning systems.
 
 ---
 
-### Vesuvius Surface Detection (Baselines)
-- Built a segmentation pipeline for papyrus surface detection on CT scan data  
-- Implemented classical models including K-Means, Logistic Regression, and Random Forest  
+##  Project I: Surface Detection on Vesuvius CT Volumes (Baseline)
 
-**Techniques:** image segmentation, feature extraction, model comparison  
-**Tools:** Python, NumPy, Scikit-learn, OpenCV  
+End-to-end supervised learning pipeline for detecting surfaces in 3D CT scan data.
+
+### Pipeline
+- Data acquisition and preprocessing of volumetric data
+- Exploratory Data Analysis (EDA)
+- Patch-based supervised learning setup
+- Baseline models:
+  - Logistic Regression
+  - Random Forest
+  - Gradient Boosting
+
+### Key Libraries
+- `numpy`, `pandas` → data handling  
+- `matplotlib`, `seaborn` → visualization  
+- `scikit-learn` → baseline models & evaluation  
+
+### Key Challenges
+- High noise in CT scans  
+- Severe class imbalance  
+- Limited spatial awareness in pixel-wise models  
+
+### Outcome
+Established strong baselines and identified limitations of classical approaches.
 
 ---
 
-### Vesuvius Surface Detection (Hybrid Ensemble)
-- Developed a hybrid model combining U-Net and XGBoost for segmentation tasks  
-- Integrated spatial modeling with feature-based classification  
+##  Project II: Hybrid Surface Detection (Advanced)
 
-**Techniques:** deep learning, feature engineering, ensemble learning  
-**Tools:** Python, PyTorch, XGBoost, OpenCV, NumPy, Scikit-learn  
+Improved surface detection using a hybrid ensemble combining deep learning and classical machine learning.
+
+### Approach
+- Transition from patch-based → full-image modeling
+- Dual-stream architecture:
+  - **U-Net (Deep Learning)** → spatial structure  
+  - **XGBoost** → handcrafted features (edges, texture)  
+- Ensemble blending (60% U-Net, 40% XGBoost)
+
+### Key Libraries
+- `torch` / `torchvision` → U-Net implementation  
+- `xgboost` → gradient boosting model  
+- `opencv` / `scipy` → feature extraction (edges, filters)  
+- `numpy` → data manipulation  
+
+### Results
+- Significant improvement in F1-score and IoU
+- Near-perfect recall (≈1.0)
+- Better spatial consistency
+
+### Key Insight
+Combining **deep learning (structure)** with **feature-based models (texture)** leads to more robust predictions.
+
+---
+
+##  Evolution Across Projects
+
+| Stage | Approach | Key Idea |
+|------|--------|--------|
+| Baseline | Classical ML | Understand the problem & limitations |
+| Advanced | Hybrid DL + ML | Combine structure + texture |
+
+---
+
+##  Skills Demonstrated
+
+- End-to-end ML pipelines
+- Feature engineering & preprocessing
+- Model evaluation & error analysis
+- Classical ML (scikit-learn, XGBoost)
+- Deep Learning (PyTorch, U-Net)
+- Handling noisy, high-dimensional data
+- Experimental design and benchmarking
+
+---
+
+##  Tech Stack
+
+- Python
+- NumPy, Pandas
+- Scikit-learn
+- XGBoost
+- PyTorch
+- OpenCV / SciPy
+- Matplotlib / Seaborn
+
+
+
+
