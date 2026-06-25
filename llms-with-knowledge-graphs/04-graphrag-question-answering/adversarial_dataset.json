@@ -1,0 +1,18 @@
+[
+    {"question": "Whic amenities does ap-001 hav?", "expected_answer": ["Wi-Fi", "Parking"]},
+    {"question": "Who livs in aprtment apt003", "expected_answer": ["Maria"]},
+    {"question": "List the facilities provided in apartment apt-001", "expected_answer": ["Wi-Fi", "Parking"]},
+    {"question": "Show me the occupants of apt-003", "expected_answer": ["Maria"]},
+
+    {"question": "Below 400 euros, which apartments can I find?", "expected_answer": ["apt-001"]},
+    {"question": "Rules for apt-002 – what are they?", "expected_answer": ["No pets allowed."]},
+
+    {"question": "By the way, could you maybe tell me what the rent is for apt–002??", "expected_answer": ["450"]},
+    {"question": "In your opinion, where exactly is apartment apt–001 located anyway?", "expected_answer": ["Ilioupoli"]},
+
+    {"question": "Which apartments have price under 0400 euros?", "expected_answer": ["apt-001"]},
+    {"question": "Which apartments have rent <= FOUR HUNDRED?", "expected_answer": ["apt-001"]},
+
+    {"question": "What are the rules and amenities of apartment apt–002?", "expected_answer": ["Heating", "No pets allowed"]},
+    {"question": "Does apt–003 allow pets?", "expected_answer": ["Yes"]}
+]

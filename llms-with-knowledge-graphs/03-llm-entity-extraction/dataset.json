@@ -1,0 +1,134 @@
+[
+  {
+    "text_id": 1,
+    "text": "The apartments includes Wi-Fi and parking. It is a two-bedroom apartment located near to the metro station.",
+    "ground_truth_apartments": [
+      "apartments",
+      "two-bedroom apartment"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi",
+      "parking"
+    ]
+  },
+  {
+    "text_id": 2,
+    "text": "This modern studio offers heating and Wi-Fi and is ideal for students.",
+    "ground_truth_apartments": [
+      "studio"
+    ],
+    "ground_truth_amenities": [
+      "heating",
+      "Wi-Fi"
+    ]
+  },
+  {
+    "text_id": 3,
+    "text": "A shared apartment with Wi-Fi and private parking is available for rent in the city center.",
+    "ground_truth_apartments": [
+      "shared apartment"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi",
+      "parking"
+    ]
+  },
+  {
+    "text_id": 4,
+    "text": "The property is a renovated apartment featuring heating and a small balcony but no Wi-Fi.",
+    "ground_truth_apartments": [
+      "apartment"
+    ],
+    "ground_truth_amenities": [
+      "heating",
+      "balcony"
+    ]
+  },
+  {
+    "text_id": 5,
+    "text": "A spacious two-room apartment offers Wi-Fi and underground parking.",
+    "ground_truth_apartments": [
+      "two-room apartment"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi",
+      "parking"
+    ]
+  },
+  {
+    "text_id": 6,
+    "text": "A cozy studio comes with heating and a balcony.",
+    "ground_truth_apartments": [
+      "studio"
+    ],
+    "ground_truth_amenities": [
+      "heating",
+      "balcony"
+    ]
+  },
+  {
+    "text_id": 7,
+    "text": "The apartment includes Wi-Fi, heating and private parking.",
+    "ground_truth_apartments": [
+      "apartment"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi",
+      "heating",
+      "parking"
+    ]
+  },
+  {
+    "text_id": 8,
+    "text": "A small apartment located near to city center with no Wi-Fi and no heating, but with a balcony.",
+    "ground_truth_apartments": [
+      "apartment"
+    ],
+    "ground_truth_amenities": [
+      "balcony"
+    ]
+  },
+  {
+    "text_id": 9,
+    "text": "A three-bedroom apartment with private parking and a garden.",
+    "ground_truth_apartments": [
+      "three-bedroom apartment"
+    ],
+    "ground_truth_amenities": [
+      "parking",
+      "garden"
+    ]
+  },
+  {
+    "text_id": 10,
+    "text": "The studio offers Wi-Fi but does not offer parking.",
+    "ground_truth_apartments": [
+      "studio"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi"
+      ]
+  },
+  {
+    "text_id": 11,
+    "text": "A furnished apartment provides Wi-Fi, heating and a small balcony.",
+    "ground_truth_apartments": [
+      "apartment"
+    ],
+    "ground_truth_amenities": [
+      "Wi-Fi",
+      "heating",
+      "balcony"
+    ]
+  },
+  {
+    "text_id": 12,
+    "text": "A two-bedroom apartment includes heating but does not include Wi-Fi and parking.",
+    "ground_truth_apartments": [
+      "two-bedroom apartment"
+    ],
+    "ground_truth_amenities": [
+      "heating"
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "question": "Which apartments have rent below 400 euros?",
+        "expected_answer": [
+            "apt-001"
+        ]
+    },
+    {
+        "question": "Which apartments have rent below 450 euros?",
+        "expected_answer": [
+            "apt-001",
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Which apartments cost exactly 400 euros?",
+        "expected_answer": [
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Which apartment in Ilioupoli has rent under 500 euros?",
+        "expected_answer": [
+            "apt-001"
+        ]
+    },
+    {
+        "question": "What is the rent of apartment apt-002?",
+        "expected_answer": [
+            "450"
+        ]
+    },
+    {
+        "question": "Which apartments are located in Glyfada?",
+        "expected_answer": [
+            "apt-002"
+        ]
+    },
+    {
+        "question": "Which apartments have at least 2 bathrooms?",
+        "expected_answer": [
+            "apt-002"
+        ]
+    },
+    {
+        "question": "Which amenities does apartment apt-001 have?",
+        "expected_answer": [
+            "Wi-Fi",
+            "Parking"
+        ]
+    },
+    {
+        "question": "Which amenities does apartment apt-002 have?",
+        "expected_answer": [
+            "Heating"
+        ]
+    },
+    {
+        "question": "Which apartments have Wi-Fi?",
+        "expected_answer": [
+            "apt-001",
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Which apartments have Parking?",
+        "expected_answer": [
+            "apt-001",
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Which apartments have Heating?",
+        "expected_answer": [
+            "apt-002"
+        ]
+    },
+    {
+        "question": "Does apartment apt-003 have Parking?",
+        "expected_answer": [
+            "Yes"
+        ]
+    },
+    {
+        "question": "Which apartments have both Wi-Fi and Parking?",
+        "expected_answer": [
+            "apt-001",
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Who lives in apartment apt-001?",
+        "expected_answer": [
+            "Giorgos"
+        ]
+    },
+    {
+        "question": "Who lives in apartment apt-002?",
+        "expected_answer": [
+            "Kwstas"
+        ]
+    },
+    {
+        "question": "Who lives in apartment apt-003?",
+        "expected_answer": [
+            "Maria"
+        ]
+    },
+    {
+        "question": "Which apartments does Giorgos live in?",
+        "expected_answer": [
+            "apt-001"
+        ]
+    },
+    {
+        "question": "Which apartments does Maria live in?",
+        "expected_answer": [
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Which roommate has a budget of 400 euros?",
+        "expected_answer": [
+            "Giorgos"
+        ]
+    },
+    {
+        "question": "Which roommates have shared before?",
+        "expected_answer": [
+            "Giorgos",
+            "Maria"
+        ]
+    },
+    {
+        "question": "Which apartments does owner-001 own?",
+        "expected_answer": [
+            "apt-001"
+        ]
+    },
+    {
+        "question": "Which apartments does owner-002 own?",
+        "expected_answer": [
+            "apt-002",
+            "apt-003"
+        ]
+    },
+    {
+        "question": "Who owns apartment apt-001?",
+        "expected_answer": [
+            "owner-001"
+        ]
+    },
+    {
+        "question": "Who owns apartment apt-003?",
+        "expected_answer": [
+            "owner-002"
+        ]
+    },
+    {
+        "question": "Which rules does apartment apt-001 have?",
+        "expected_answer": [
+            "Smoking is forbidden"
+        ]
+    },
+    {
+        "question": "Which rules does apartment apt-002 have?",
+        "expected_answer": [
+            "No pets allowed"
+        ]
+    },
+    {
+        "question": "Which rules does apartment apt-003 have?",
+        "expected_answer": [
+            "Quiet hours after 23:00pm"
+        ]
+    },
+    {
+        "question": "Which apartments have strict rules?",
+        "expected_answer": [
+            "apt-001",
+            "apt-002"
+        ]
+    },
+    {
+        "question": "Which apartments allow pets?",
+        "expected_answer": [
+            "apt-003"
+        ]
+    }
+]
